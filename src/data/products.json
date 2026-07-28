@@ -4,34 +4,34 @@
     "title": "Laptop",
     "description": "High performance laptop for coding.",
     "price": "₹55,000",
-    "image": "/src/assets/laptop.jpg"
+    "image": "./src/assets/laptop.jpg"
   },
   {
     "id": 2,
     "title": "Headphones",
     "description": "Wireless Bluetooth headphones.",
     "price": "₹2,999",
-    "image": "/src/assets/headphones.jpg"
+    "image": "./src/assets/headphones.jpg"
   },
   {
     "id": 3,
     "title": "Smart Watch",
     "description": "Fitness tracking smartwatch.",
     "price": "₹4,999",
-    "image": "/src/assets/smartwatch.jpg"
+    "image": "./src/assets/smartwatch.jpg"
   },
   {
     "id": 4,
     "title": "Camera",
     "description": "DSLR camera for photography.",
     "price": "₹45,000",
-    "image": "/src/assets/camera.jpg"
+    "image": "./src/assets/camera.jpg"
   },
   {
     "id": 5,
     "title": "Mobile Phone",
     "description": "Latest Android smartphone.",
     "price": "₹18,999",
-    "image": "/src/assets/phone.jpg"
+    "image": "./src/assets/phone.jpg"
   }
 ]
