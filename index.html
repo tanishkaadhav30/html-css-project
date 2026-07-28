@@ -1,58 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="A simple, focused daily task planner." />
-  <title>Daily Focus</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <main class="app-shell">
-    <header class="topbar">
-      <a class="brand" href="index.html" aria-label="Daily Focus home">
-        <span class="brand-mark">✦</span>
-        <span>Daily Focus</span>
-      </a>
-      <button class="icon-button" id="theme-toggle" type="button" aria-label="Toggle color theme">☾</button>
-    </header>
-
-    <section class="hero" aria-labelledby="page-title">
-      <p class="eyebrow">YOUR SPACE TO</p>
-      <h1 id="page-title">Make today<br /><em>count.</em></h1>
-      <p class="intro">Small steps create meaningful progress. Keep your focus on what matters most.</p>
-    </section>
-
-    <section class="planner-card" aria-labelledby="planner-title">
-      <div class="card-heading">
-        <div>
-          <p class="eyebrow">TODAY'S PLAN</p>
-          <h2 id="planner-title">Your tasks</h2>
-        </div>
-        <span class="task-count" id="task-count">0 tasks</span>
-      </div>
-
-      <form class="task-form" id="task-form">
-        <label class="sr-only" for="task-input">Add a task</label>
-        <input id="task-input" type="text" placeholder="What needs your attention?" autocomplete="off" maxlength="100" required />
-        <button class="add-button" type="submit">Add task <span>＋</span></button>
-      </form>
-
-      <div class="filters" role="group" aria-label="Filter tasks">
-        <button class="filter-button active" data-filter="all" type="button">All</button>
-        <button class="filter-button" data-filter="active" type="button">Open</button>
-        <button class="filter-button" data-filter="completed" type="button">Completed</button>
-      </div>
-
-      <ul class="task-list" id="task-list" aria-live="polite"></ul>
-      <p class="empty-state" id="empty-state">No tasks here yet. Add one above to get started.</p>
-    </section>
-
-    <footer><span id="date-label"></span><span>Built for better days</span></footer>
-  </main>
-  <script src="script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>html-css-project</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
