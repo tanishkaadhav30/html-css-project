@@ -1,0 +1,20 @@
+.notfound {
+  text-align: center;
+  padding: 4rem 1rem;
+}
+.notfound h1 {
+  font-size: 3.5rem;
+  margin: 0;
+}
+.notfound p {
+  margin: 1rem 0 1.5rem;
+  color: #444;
+}
+.notfound-link {
+  color: #0366d6;
+  text-decoration: none;
+  font-weight: 600;
+}
+.notfound-link:hover {
+  text-decoration: underline;
+}
